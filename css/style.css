@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #746060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+header {
+    background-color: #168600;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+#title {
+    font-size: 4rem;
+    color: #fff;
+    margin: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 17rem;
+  }
+  
+#select {
+    background: #156e03;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+#selectCharacter {
+    width: 30rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #34a9cc;
+    color: #ffff;
+  }
+  
+#selectCharacter:hover {
+    cursor: pointer;
+  }
+
+#main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+#card {
+    width: 22rem;
+    height: 30rem;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;     
+    background-color: #156e03;
+  }
+  
+#image {
+    width: 90%;
+    height: 50%;  
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center; 
+    margin-top: 1rem; 
+  }
+  
+
+#genero {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #adadbe; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+
+#name{
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3d4547;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #adadbe; 
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+#genero {
+    border-radius: 10px;
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color: #3d4547;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    background: #3d4547;
+    width: 94.8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
